@@ -1,0 +1,128 @@
+*{
+	margin: 0; padding: 0;
+}
+.container {
+	width: 1300px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-top: 8px solid #a292b3;
+	border-bottom:  8px solid #a292b3;
+}
+.wrapper{
+	width: 1020px;
+	margin: 0 auto;
+}
+header {
+	height: 130px;
+}
+.logo{float: left;}
+.logo img{
+	float: left; 
+	width: 70px; 
+	height: 70px;
+	padding-top: 31px;
+  	padding-bottom: 28px;
+}
+
+.menu{float: right;}
+.menu {
+	display: flex;
+	width: 602px;
+	height: 130px;
+	justify-content: space-between;	
+	list-style: none;
+	align-items: center;
+
+}
+.menu li a{
+	font-size: 19px;
+  	font-family: "Segoe UI";
+ 	color: rgb(84, 84, 84);
+  	line-height: 1.2;
+  	text-decoration: none;
+}
+#Contact::before{
+	content: url("../img/letter.png");
+}
+
+#Services::before{
+	content: url("../img/services.png");
+}
+
+#About::before{
+	content: url("../img/about.png");
+}
+
+#Home::before{
+	content: url("../img/home.png");
+}
+
+.Minto {
+  font-size: 39px;
+  font-family: "Arial";
+  color: rgb(162, 146, 179);
+  text-transform: uppercase;
+  float: left;
+  height: 70px;
+  line-height: 70px;
+  padding-top: 40px;
+  padding-bottom: 49px;
+
+}
+
+.main img {
+	width: 1020px;
+	height: 486;
+}
+
+.LoremColor {
+  font-size: 23px;
+  font-family: "Segoe UI";
+  color: rgb(130, 105, 157);
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.565;
+  text-align: center;
+}
+.lorem{
+  font-size: 20px;
+  font-family: "Segoe UI";
+  color: #494848;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1;
+  text-align: center;
+}
+
+.content img{
+	width: 271px;
+	height: 271px;
+	padding-top: 50px;
+	float: left;
+	background-color: transparent;
+	background-image: url(../img/shadow.png);
+}
+
+.shadow{
+	padding-top: 50px;
+}
+
+h2 {
+  font-size: 31px;
+  font-family: "Segoe UI";
+  color: rgb(80, 80, 81);
+  font-weight: bold;
+  line-height: 1.161;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.TextContent {
+  font-size: 15px;
+  font-family: "Segoe UI";
+  color: rgb(131, 131, 131);
+  line-height: 1.867;
+  text-align: left;
+  
+}
+	
